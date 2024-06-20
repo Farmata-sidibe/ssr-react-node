@@ -5,7 +5,7 @@ const App = ({ todos }) => (
     <h1>Liste des Tâches</h1>
     <ul>
       {todos.map(todo => (
-        <li key={todo.id}>{todo.title}</li>
+        <li key={todo.id}> {todo.title} {todo.completed} </li>
       ))}
     </ul>
   </div>

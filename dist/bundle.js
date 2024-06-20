@@ -22687,7 +22687,7 @@
   var import_react = __toESM(require_react());
   var App = ({ todos: todos2 }) => /* @__PURE__ */ import_react.default.createElement("div", null, /* @__PURE__ */ import_react.default.createElement("h1", null, "Liste des T\xE2ches"), /* @__PURE__ */ import_react.default.createElement("ul", null, todos2.map((todo) => /* @__PURE__ */ import_react.default.createElement("li", {
     key: todo.id
-  }, todo.title))));
+  }, " ", todo.title, " ", todo.completed, " "))));
   var App_default = App;
 
   // src/index.js
